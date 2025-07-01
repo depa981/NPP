@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model>
+    <listOfCompartments>
+      <compartment id="cell"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="S0" compartment="cell" initialAmount="1"/>
+      <species id="S1" compartment="cell" initialAmount="1"/>
+      <species id="S2" compartment="cell" initialAmount="1"/>
+      <species id="S3" compartment="cell" initialAmount="1"/>
+      <species id="S4" compartment="cell" initialAmount="1"/>
+      <species id="S5" compartment="cell" initialAmount="1"/>
+      <species id="S6" compartment="cell" initialAmount="1"/>
+      <species id="S7" compartment="cell" initialAmount="1"/>
+      <species id="S8" compartment="cell" initialAmount="1"/>
+      <species id="S9" compartment="cell" initialAmount="1"/>
+      <species id="S10" compartment="cell" initialAmount="1"/>
+      <species id="S11" compartment="cell" initialAmount="1"/>
+      <species id="S12" compartment="cell" initialAmount="1"/>
+      <species id="S13" compartment="cell" initialAmount="1"/>
+      <species id="S14" compartment="cell" initialAmount="1"/>
+      <species id="S15" compartment="cell" initialAmount="1"/>
+      <species id="S16" compartment="cell" initialAmount="1"/>
+      <species id="S17" compartment="cell" initialAmount="1"/>
+      <species id="S18" compartment="cell" initialAmount="1"/>
+      <species id="S19" compartment="cell" initialAmount="1"/>
+      <species id="S20" compartment="cell" initialAmount="1"/>
+      <species id="S21" compartment="cell" initialAmount="1"/>
+      <species id="S22" compartment="cell" initialAmount="1"/>
+      <species id="S23" compartment="cell" initialAmount="1"/>
+      <species id="S24" compartment="cell" initialAmount="1"/>
+      <species id="S25" compartment="cell" initialAmount="1"/>
+      <species id="S26" compartment="cell" initialAmount="1"/>
+      <species id="S27" compartment="cell" initialAmount="1"/>
+      <species id="S28" compartment="cell" initialAmount="1"/>
+      <species id="S29" compartment="cell" initialAmount="1"/>
+      <species id="S30" compartment="cell" initialAmount="1"/>
+      <species id="S31" compartment="cell" initialAmount="1"/>
+      <species id="S32" compartment="cell" initialAmount="1"/>
+      <species id="S33" compartment="cell" initialAmount="1"/>
+      <species id="S34" compartment="cell" initialAmount="1"/>
+      <species id="S35" compartment="cell" initialAmount="1"/>
+      <species id="S36" compartment="cell" initialAmount="1"/>
+      <species id="S37" compartment="cell" initialAmount="1"/>
+      <species id="S38" compartment="cell" initialAmount="1"/>
+      <species id="S39" compartment="cell" initialAmount="1"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="R0" value="0.00030227322587197"/>
+      <parameter id="Rr0" value="0.30227322587197"/>
+      <parameter id="R2" value="0.000696446811689105"/>
+      <parameter id="Rr2" value="0.696446811689105"/>
+      <parameter id="R4" value="0.00624399680841805"/>
+      <parameter id="Rr4" value="0.624399680841805"/>
+      <parameter id="R6" value="23.0518444976903"/>
+      <parameter id="Rr6" value="0.00230518444976903"/>
+      <parameter id="R8" value="85.8669712695923"/>
+      <parameter id="Rr8" value="0.0858669712695923"/>
+      <parameter id="R10" value="8.88450739629693e-05"/>
+      <parameter id="Rr10" value="0.888450739629693"/>
+      <parameter id="R12" value="54.6478329263887"/>
+      <parameter id="Rr12" value="0.546478329263887"/>
+      <parameter id="R14" value="803.743037899057"/>
+      <parameter id="Rr14" value="8.03743037899057"/>
+      <parameter id="R16" value="0.000288548562317772"/>
+      <parameter id="Rr16" value="0.288548562317772"/>
+      <parameter id="R18" value="3.83740818181937e-05"/>
+      <parameter id="Rr18" value="0.383740818181937"/>
+      <parameter id="R20" value="2.85617199456123e-05"/>
+      <parameter id="Rr20" value="2.85617199456123"/>
+      <parameter id="R22" value="0.00537663515021886"/>
+      <parameter id="Rr22" value="0.537663515021886"/>
+      <parameter id="R24" value="3.13160726396813"/>
+      <parameter id="Rr24" value="0.000313160726396813"/>
+      <parameter id="R26" value="0.000756118658160259"/>
+      <parameter id="Rr26" value="0.756118658160259"/>
+      <parameter id="R28" value="606.38409289651"/>
+      <parameter id="Rr28" value="0.60638409289651"/>
+      <parameter id="R30" value="0.000808336187325459"/>
+      <parameter id="Rr30" value="0.808336187325459"/>
+      <parameter id="R32" value="747.928930296641"/>
+      <parameter id="Rr32" value="7.47928930296641"/>
+      <parameter id="R34" value="2.20368806917442e-05"/>
+      <parameter id="Rr34" value="0.220368806917442"/>
+      <parameter id="R36" value="6.44195123483626"/>
+      <parameter id="Rr36" value="0.0644195123483626"/>
+      <parameter id="R38" value="0.000290390143857458"/>
+      <parameter id="Rr38" value="0.290390143857458"/>
+      <parameter id="R40" value="913.958073766253"/>
+      <parameter id="Rr40" value="9.13958073766253"/>
+      <parameter id="R42" value="147.802427670907"/>
+      <parameter id="Rr42" value="0.147802427670907"/>
+      <parameter id="R44" value="690.070117905939"/>
+      <parameter id="Rr44" value="0.0690070117905939"/>
+      <parameter id="R46" value="0.00026613625915161"/>
+      <parameter id="Rr46" value="0.26613625915161"/>
+      <parameter id="R48" value="0.000400626747072531"/>
+      <parameter id="Rr48" value="0.400626747072531"/>
+      <parameter id="R50" value="1.02342139359773"/>
+      <parameter id="Rr50" value="0.00102342139359773"/>
+      <parameter id="R52" value="1.26669981871139e-05"/>
+      <parameter id="Rr52" value="0.126669981871139"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="reactionR0">
+        <listOfReactants>
+          <speciesReference species="S0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R0 </ci>
+              <ci> S0 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr0">
+        <listOfReactants>
+          <speciesReference species="S1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S0"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr0 </ci>
+              <ci> S1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR2">
+        <listOfReactants>
+          <speciesReference species="S1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R2 </ci>
+              <ci> S1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr2">
+        <listOfReactants>
+          <speciesReference species="S2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr2 </ci>
+              <ci> S2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR4">
+        <listOfReactants>
+          <speciesReference species="S2"/>
+          <speciesReference species="S0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S3"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R4 </ci>
+              <ci> S2 </ci>
+              <ci> S0 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr4">
+        <listOfReactants>
+          <speciesReference species="S3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2"/>
+          <speciesReference species="S0"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr4 </ci>
+              <ci> S3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR6">
+        <listOfReactants>
+          <speciesReference species="S1"/>
+          <speciesReference species="S3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4"/>
+          <speciesReference species="S5"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R6 </ci>
+              <ci> S1 </ci>
+              <ci> S3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr6">
+        <listOfReactants>
+          <speciesReference species="S4"/>
+          <speciesReference species="S5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S1"/>
+          <speciesReference species="S3"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr6 </ci>
+              <ci> S4 </ci>
+              <ci> S5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR8">
+        <listOfReactants>
+          <speciesReference species="S2"/>
+          <speciesReference species="S0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S6"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R8 </ci>
+              <ci> S2 </ci>
+              <ci> S0 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr8">
+        <listOfReactants>
+          <speciesReference species="S6"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2"/>
+          <speciesReference species="S0"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr8 </ci>
+              <ci> S6 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR10">
+        <listOfReactants>
+          <speciesReference species="S0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S7"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R10 </ci>
+              <ci> S0 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr10">
+        <listOfReactants>
+          <speciesReference species="S7"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S0"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr10 </ci>
+              <ci> S7 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR12">
+        <listOfReactants>
+          <speciesReference species="S5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S8"/>
+          <speciesReference species="S9"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R12 </ci>
+              <ci> S5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr12">
+        <listOfReactants>
+          <speciesReference species="S8"/>
+          <speciesReference species="S9"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S5"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr12 </ci>
+              <ci> S8 </ci>
+              <ci> S9 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR14">
+        <listOfReactants>
+          <speciesReference species="S2"/>
+          <speciesReference species="S4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S10"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R14 </ci>
+              <ci> S2 </ci>
+              <ci> S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr14">
+        <listOfReactants>
+          <speciesReference species="S10"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2"/>
+          <speciesReference species="S4"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr14 </ci>
+              <ci> S10 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR16">
+        <listOfReactants>
+          <speciesReference species="S8"/>
+          <speciesReference species="S10"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S11"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R16 </ci>
+              <ci> S8 </ci>
+              <ci> S10 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr16">
+        <listOfReactants>
+          <speciesReference species="S11"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S8"/>
+          <speciesReference species="S10"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr16 </ci>
+              <ci> S11 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR18">
+        <listOfReactants>
+          <speciesReference species="S2"/>
+          <speciesReference species="S9"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S12"/>
+          <speciesReference species="S13"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R18 </ci>
+              <ci> S2 </ci>
+              <ci> S9 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr18">
+        <listOfReactants>
+          <speciesReference species="S12"/>
+          <speciesReference species="S13"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2"/>
+          <speciesReference species="S9"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr18 </ci>
+              <ci> S12 </ci>
+              <ci> S13 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR20">
+        <listOfReactants>
+          <speciesReference species="S6"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S14"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R20 </ci>
+              <ci> S6 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr20">
+        <listOfReactants>
+          <speciesReference species="S14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S6"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr20 </ci>
+              <ci> S14 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR22">
+        <listOfReactants>
+          <speciesReference species="S11"/>
+          <speciesReference species="S14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S15"/>
+          <speciesReference species="S16"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R22 </ci>
+              <ci> S11 </ci>
+              <ci> S14 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr22">
+        <listOfReactants>
+          <speciesReference species="S15"/>
+          <speciesReference species="S16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S11"/>
+          <speciesReference species="S14"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr22 </ci>
+              <ci> S15 </ci>
+              <ci> S16 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR24">
+        <listOfReactants>
+          <speciesReference species="S11"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S17"/>
+          <speciesReference species="S18"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R24 </ci>
+              <ci> S11 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr24">
+        <listOfReactants>
+          <speciesReference species="S17"/>
+          <speciesReference species="S18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S11"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr24 </ci>
+              <ci> S17 </ci>
+              <ci> S18 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR26">
+        <listOfReactants>
+          <speciesReference species="S9"/>
+          <speciesReference species="S16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S19"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R26 </ci>
+              <ci> S9 </ci>
+              <ci> S16 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr26">
+        <listOfReactants>
+          <speciesReference species="S19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S9"/>
+          <speciesReference species="S16"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr26 </ci>
+              <ci> S19 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR28">
+        <listOfReactants>
+          <speciesReference species="S3"/>
+          <speciesReference species="S14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S20"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R28 </ci>
+              <ci> S3 </ci>
+              <ci> S14 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr28">
+        <listOfReactants>
+          <speciesReference species="S20"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S3"/>
+          <speciesReference species="S14"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr28 </ci>
+              <ci> S20 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR30">
+        <listOfReactants>
+          <speciesReference species="S7"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S21"/>
+          <speciesReference species="S22"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R30 </ci>
+              <ci> S7 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr30">
+        <listOfReactants>
+          <speciesReference species="S21"/>
+          <speciesReference species="S22"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S7"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr30 </ci>
+              <ci> S21 </ci>
+              <ci> S22 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR32">
+        <listOfReactants>
+          <speciesReference species="S19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S23"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R32 </ci>
+              <ci> S19 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr32">
+        <listOfReactants>
+          <speciesReference species="S23"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S19"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr32 </ci>
+              <ci> S23 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR34">
+        <listOfReactants>
+          <speciesReference species="S19"/>
+          <speciesReference species="S12"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S24"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R34 </ci>
+              <ci> S19 </ci>
+              <ci> S12 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr34">
+        <listOfReactants>
+          <speciesReference species="S24"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S19"/>
+          <speciesReference species="S12"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr34 </ci>
+              <ci> S24 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR36">
+        <listOfReactants>
+          <speciesReference species="S13"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S25"/>
+          <speciesReference species="S26"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R36 </ci>
+              <ci> S13 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr36">
+        <listOfReactants>
+          <speciesReference species="S25"/>
+          <speciesReference species="S26"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S13"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr36 </ci>
+              <ci> S25 </ci>
+              <ci> S26 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR38">
+        <listOfReactants>
+          <speciesReference species="S0"/>
+          <speciesReference species="S7"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S27"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R38 </ci>
+              <ci> S0 </ci>
+              <ci> S7 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr38">
+        <listOfReactants>
+          <speciesReference species="S27"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S0"/>
+          <speciesReference species="S7"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr38 </ci>
+              <ci> S27 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR40">
+        <listOfReactants>
+          <speciesReference species="S17"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S28"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R40 </ci>
+              <ci> S17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr40">
+        <listOfReactants>
+          <speciesReference species="S28"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S17"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr40 </ci>
+              <ci> S28 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR42">
+        <listOfReactants>
+          <speciesReference species="S23"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S29"/>
+          <speciesReference species="S30"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R42 </ci>
+              <ci> S23 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr42">
+        <listOfReactants>
+          <speciesReference species="S29"/>
+          <speciesReference species="S30"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S23"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr42 </ci>
+              <ci> S29 </ci>
+              <ci> S30 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR44">
+        <listOfReactants>
+          <speciesReference species="S18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S31"/>
+          <speciesReference species="S32"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R44 </ci>
+              <ci> S18 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr44">
+        <listOfReactants>
+          <speciesReference species="S31"/>
+          <speciesReference species="S32"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S18"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr44 </ci>
+              <ci> S31 </ci>
+              <ci> S32 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR46">
+        <listOfReactants>
+          <speciesReference species="S24"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S33"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R46 </ci>
+              <ci> S24 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr46">
+        <listOfReactants>
+          <speciesReference species="S33"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S24"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr46 </ci>
+              <ci> S33 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR48">
+        <listOfReactants>
+          <speciesReference species="S18"/>
+          <speciesReference species="S26"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S34"/>
+          <speciesReference species="S35"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R48 </ci>
+              <ci> S18 </ci>
+              <ci> S26 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr48">
+        <listOfReactants>
+          <speciesReference species="S34"/>
+          <speciesReference species="S35"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S18"/>
+          <speciesReference species="S26"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr48 </ci>
+              <ci> S34 </ci>
+              <ci> S35 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR50">
+        <listOfReactants>
+          <speciesReference species="S17"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S36"/>
+          <speciesReference species="S37"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R50 </ci>
+              <ci> S17 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr50">
+        <listOfReactants>
+          <speciesReference species="S36"/>
+          <speciesReference species="S37"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S17"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr50 </ci>
+              <ci> S36 </ci>
+              <ci> S37 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionR52">
+        <listOfReactants>
+          <speciesReference species="S37"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S38"/>
+          <speciesReference species="S39"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> R52 </ci>
+              <ci> S37 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reactionRr52">
+        <listOfReactants>
+          <speciesReference species="S38"/>
+          <speciesReference species="S39"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S37"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Rr52 </ci>
+              <ci> S38 </ci>
+              <ci> S39 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
